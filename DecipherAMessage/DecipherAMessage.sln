@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecipherAMessage.Test", "DecipherAMessage.Test\DecipherAMessage.Test.csproj", "{46AD625C-0663-4FAA-AEBA-A0B9ECB9FE3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecipherAMessage.App", "DecipherAMessage.App\DecipherAMessage.App.csproj", "{082CF178-13B6-40E7-8842-90FA9E4CF132}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46AD625C-0663-4FAA-AEBA-A0B9ECB9FE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AD625C-0663-4FAA-AEBA-A0B9ECB9FE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AD625C-0663-4FAA-AEBA-A0B9ECB9FE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AD625C-0663-4FAA-AEBA-A0B9ECB9FE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082CF178-13B6-40E7-8842-90FA9E4CF132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082CF178-13B6-40E7-8842-90FA9E4CF132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082CF178-13B6-40E7-8842-90FA9E4CF132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082CF178-13B6-40E7-8842-90FA9E4CF132}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89D3BC89-AF8C-4952-B9B7-93692E537F8B}
+	EndGlobalSection
+EndGlobal
