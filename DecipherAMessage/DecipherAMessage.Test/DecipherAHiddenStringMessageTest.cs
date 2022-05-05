@@ -33,5 +33,19 @@ namespace DecipherAMessage.Test
             //Assert
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void UsingROT13ToDeciperAStringTest3_Successful()
+        {
+            //Arrange
+            IDecipherAHiddenStringMessageMethod decipherAHiddenStringMessage = new DecipherAHiddenStringMessageMethod();
+            var input = "NBNniizVYvgurxAZBmZboAweK*qczcqiBadIuIUMYNTBSt2CDt";
+            var expected = "AOAavvmILithekNMOzMobNjrX*dpmpdvOnqVhVHZLAGOFg2PQg";
+
+            //Act
+            var actual = decipherAHiddenStringMessage.UsingROT13ToDeciperAString(input);
+            //Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }
